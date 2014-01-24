@@ -1,4 +1,3 @@
-config/initializers/secret_token.rb
 
 # Be sure to restart your server when you modify this file.
 
