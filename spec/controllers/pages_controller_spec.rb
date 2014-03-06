@@ -7,12 +7,7 @@ describe PagesController do
     it "returns http success" do
       get 'home'
       response.should be_success
-    end
-
-    it "should have the right title" do
-      get 'home'
-      response.should be_success
-    end  
+    end 
 
     it "the view body tags should not be blank" do
       get 'home'
