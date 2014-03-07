@@ -14,6 +14,7 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'spork-rails', '4.0.0'
   gem 'guard-rspec', '2.5.0'
+  gem 'webrat'
 end
 
 gem 'sass-rails', '4.0.1'

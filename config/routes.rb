@@ -1,5 +1,9 @@
 SampleApp::Application.routes.draw do
-  get "pages/home"
-  get "pages/contact"
-  get "pages/about"
+
+	root :to => "pages#home"
+
+	get '/about', to: 'pages#about'
+	get '/contact', to: 'pages#contact'
+	get '/help', to: 'pages#help'
+	get "pages/home"
 end
