@@ -61,6 +61,7 @@ GEM
       rails (>= 3.0.0.beta4)
     ffi (1.9.3)
     formatador (0.2.4)
+    gravatar_image_tag (1.2.0)
     guard (2.5.1)
       formatador (>= 0.2.4)
       listen (~> 2.6)
@@ -202,6 +203,7 @@ DEPENDENCIES
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
   factory_girl_rails (= 1.0)
+  gravatar_image_tag
   guard-rspec (= 2.5.0)
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
