@@ -16,6 +16,7 @@ group :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-rspec', '2.5.0'
   gem 'webrat'
+  gem 'factory_girl_rails', '1.0'
 end
 
 gem 'sass-rails', '4.0.1'
